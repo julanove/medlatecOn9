@@ -1,0 +1,45 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width = "fill_parent" android:layout_height = "wrap_content"
+ style="@style/ButtonText" android:background="@drawable/btn_white_glossy" >
+          
+	<LinearLayout
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_alignParentStart="true">
+        
+		<TextView
+              android:id="@+id/lst_item_Name" android:layout_width="wrap_content"
+              android:textSize="16sp" android:textStyle="bold" android:layout_height="wrap_content"
+              android:textColor="#000000" android:text="TEST" android:focusable="false"/>
+        
+		
+		
+         <TextView
+            android:text="TEST"
+            android:id="@+id/lst_item_Mobile" android:layout_height="wrap_content"
+            android:layout_width="wrap_content" android:textSize="14sp"
+            android:textColor="#000000" android:focusable="false"/>
+           
+         <TextView
+            android:text="TEST"  android:id="@+id/lst_item_phone"
+            android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:textSize="14sp" android:textColor="#000000"  android:focusable="false"/>
+    
+              
+         <TextView
+            android:text="TEST" android:id="@+id/lst_item_id"
+            android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:textSize="14sp" android:textColor="#000000" android:focusable="false"/>
+
+         
+         <TextView
+            android:text="TEST" android:id="@+id/lst_NS_GT"
+            android:layout_height="wrap_content"  android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="14sp" android:textColor="#000000" android:focusable="false" />
+         
+  
+         </LinearLayout>
+    
+
+    
+</RelativeLayout>

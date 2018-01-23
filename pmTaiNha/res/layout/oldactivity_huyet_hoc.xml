@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+    <AbsoluteLayout
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content">
+   
+<!--   P1 -->
+        
+        <TextView
+       	android:text="Tổng phân tích máu 18" android:id="@+id/tv11" android:layout_height="wrap_content"	android:layout_width="wrap_content" 	android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="20dp" android:clickable="true" android:onClick="onClick" />     
+      
+        <TextView
+       	android:text="22" android:id="@+id/tv12" android:layout_height="wrap_content"	android:layout_width="wrap_content" 	android:textSize="26sp"
+       	android:layout_x="350dp" android:layout_y="20dp" android:clickable="true" android:onClick="onClick" />  
+    
+        <TextView
+       	android:text="32" android:id="@+id/tv13" android:layout_height="wrap_content"	android:layout_width="wrap_content" 	android:textSize="26sp"
+       	android:layout_x="430dp" android:layout_y="20dp" android:clickable="true" android:onClick="onClick" /> 
+        
+    <!--   P2 -->
+        
+        <TextView
+       	android:text="Nhóm máu ABO" android:id="@+id/tv21" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp" android:layout_x="10dp" android:layout_y="80dp"  />     
+      
+    <TextView
+       	android:text="RH" android:id="@+id/tv22" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp" android:layout_x="270dp" android:layout_y="80dp" /> 
+       	
+     <TextView
+       	android:text="Eldoncard" android:id="@+id/tv23" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp" android:layout_x="400dp" android:layout_y="80dp" /> 
+        
+     <!--   P3 -->
+        
+       <TextView
+       	android:text="Máu lắng: sau 1 giờ, sau 2 giờ" android:id="@+id/tv31" android:clickable="true" android:onClick="onClick"  android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="140dp" />     
+ 
+        
+        
+ <!--   P4 -->
+        
+       <TextView
+       	android:text="Máu chảy, máu đông" android:id="@+id/tv41" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="200dp" />     
+     
+        
+    <!--   P5 -->
+        
+       <TextView
+       	android:text="Huyết đồ" android:id="@+id/tv51" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="260dp" />     
+      
+    <TextView
+       	android:text="Điện di huyết sắc tố" android:id="@+id/tv52" android:clickable="true" android:onClick="onClick" 	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="200dp" android:layout_y="260dp" /> 
+        
+ 
+       	
+     <!--   P6 -->
+        
+       <TextView
+       	android:text="Kháng thể kháng nhân (ANA)" android:id="@+id/tv61" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="320dp" />     
+      
+    <TextView
+       	android:text="Anti-dsDNA" android:id="@+id/tv62" android:clickable="true" android:onClick="onClick" 	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="400dp" android:layout_y="320dp" /> 
+         
+       	
+    <!--   P7 -->
+        
+       <TextView
+       	android:text="TB Hargraves" android:id="@+id/tv71" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="380dp" />     
+      
+    <TextView
+       	android:text="HLA-B27" android:id="@+id/tv72" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="230dp" android:layout_y="380dp" /> 
+        
+    <TextView
+       	android:text="Dấu hiệu dây thắt" android:id="@+id/tv73" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="380dp" android:layout_y="380dp" /> 
+       	
+<!--   P8 -->
+        
+       <TextView
+       	android:text="TG Prothrombin (Quick), TL Prothrombin, INR" android:id="@+id/tv81" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="440dp" />     
+      
+
+        
+ <!--   P9 -->
+        
+       <TextView
+       	android:text="TG Thrombin (TT)" android:id="@+id/tv91" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="500dp" />     
+      
+    <TextView
+       	android:text="Cephalin-Kaolin (APTT)"  android:id="@+id/tv92" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="300dp" android:layout_y="500dp" /> 
+       
+
+    <!--   P10 -->
+        
+       <TextView
+       	android:text="Fibrinogen" android:id="@+id/tv101" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="560dp" />     
+      
+    <TextView
+       	android:text="D-dimer" android:id="@+id/tv102" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="300dp" android:layout_y="560dp" /> 
+       
+    <!--   P11 -->
+        
+       <TextView
+       	android:text="Nghiệm pháp Coombs:TT, GT" android:id="@+id/tv111" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="620dp" />     
+      
+
+
+</AbsoluteLayout>
+</ScrollView>

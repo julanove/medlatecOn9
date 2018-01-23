@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent" 
+ android:layout_height="fill_parent">
+
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="10dip" >
+
+    
+
+
+    
+  
+  
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" 
+	  >
+	
+	<TextView 
+	    android:id="@+id/constant_text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/pid"
+	    android:background="@android:color/transparent" />
+	
+	<EditText 
+	    android:id="@+id/etPID"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant_text"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:inputType="textCapCharacters" 
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	</RelativeLayout>
+    
+    
+    
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant_text2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/secu"
+	    android:background="@android:color/transparent" />
+	
+	<EditText 
+	    android:id="@+id/etCanbo"
+	    android:layout_width="180dp"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant_text2"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	
+	</RelativeLayout>
+    
+</LinearLayout> 
+    
+
+
+<!-- Row III -->
+   
+
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant_text3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/sid"
+	    android:background="@android:color/transparent" />
+	
+	<TextView 
+	    android:id="@+id/etTime"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant_text3"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp"
+	    android:textSize="18sp" />
+	
+	<EditText 
+	    android:id="@+id/etSID"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/etTime"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp"
+	    android:inputType="number"
+	    android:text="@string/SIDs" />
+	
+	</RelativeLayout>
+    
+</LinearLayout> 
+
+
+
+
+
+
+
+<!-- Row IV Tên khách hàng-->
+   
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant_text5"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/name"
+	    android:background="@android:color/transparent" />
+	
+	<EditText 
+	    android:id="@+id/etPatientName"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant_text5"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:inputType="textCapCharacters"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp" />
+	
+	</RelativeLayout>
+    
+</LinearLayout> 
+
+
+<!-- Row V Ngày tháng --> 
+
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="2"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant_text6"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/day"
+	    android:background="@android:color/transparent" />
+	
+	<EditText 
+	    android:id="@+id/etDay"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant_text6"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:inputType="number"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	</RelativeLayout>
+    
+    
+    
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="2"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant_text7"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/month"
+	    android:background="@android:color/transparent" />
+	
+	<EditText 
+	    android:id="@+id/etMonth"
+	    android:layout_width="180dp"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant_text7"
+	    android:textColor="#000000"
+	    android:inputType="number"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	
+	</RelativeLayout>
+	
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="2"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant_text8"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/year"
+	    android:background="@android:color/transparent" />
+	
+	<EditText 
+	    android:id="@+id/etBOD"
+	    android:layout_width="180dp"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant_text8"
+	    android:textColor="#000000"
+	    android:inputType="number"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp"
+	    android:text="@string/YEARs" />
+	
+	
+	</RelativeLayout>
+    
+</LinearLayout> 
+
+
+
+<!-- Row IV Giới tính / Điện thoại -->  
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/sex"
+	    android:background="@android:color/transparent" />
+	
+	<Spinner 
+	    android:id="@+id/etSex"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant1"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	</RelativeLayout>
+    
+    
+    
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/phone"
+	    android:background="@android:color/transparent" />
+	
+	<EditText 
+	    android:id="@+id/etPhone"
+	    android:layout_width="180dp"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant2"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:inputType="number"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	
+	</RelativeLayout>
+    
+</LinearLayout> 
+
+<!-- Email -->
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/email"
+	    android:background="@android:color/transparent" />
+	
+	<EditText 
+	    android:id="@+id/etEmail"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant3"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:inputType="textEmailAddress"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp" />
+	
+	</RelativeLayout>
+    
+</LinearLayout> 
+
+
+<!-- Địa chỉ -->
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/address"
+	    android:background="@android:color/transparent" />
+	
+	<EditText 
+	    android:id="@+id/etAddress"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant4"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:inputType="textCapCharacters"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp" />
+	
+	</RelativeLayout>
+    
+</LinearLayout> 
+
+
+<!-- Quận -->
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant5"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/quan"
+	    android:background="@android:color/transparent" />
+	
+	<AutoCompleteTextView 
+	    android:id="@+id/cbH"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant5"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:inputType="text"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp" />
+	
+	</RelativeLayout>
+    
+</LinearLayout> 
+
+<!-- CHĂM SÓC ĐI LẠI CHIẾT KHẤU -->
+    
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="2"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/lb1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/chamsoc"
+	    android:background="@android:color/transparent" />
+	
+	<CheckBox 
+	    android:id="@+id/etCS"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/lb1"
+	    android:textColor="#000000"
+	    android:checked="true"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	</RelativeLayout>
+    
+    
+    
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="2"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant6"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/dilai"
+	    android:background="@android:color/transparent" />
+	
+	<Spinner 
+	    android:id="@+id/etDiLai"
+	    android:layout_width="180dp"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant6"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	
+	</RelativeLayout>
+	
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="2"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/lb3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/chietkhau"
+	    android:background="@android:color/transparent" />
+	
+	<EditText 
+	    android:id="@+id/etChietKhau"
+	    android:layout_width="180dp"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/lb3"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:inputType="number"
+	    android:text="0"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	
+	</RelativeLayout>
+    
+</LinearLayout>     
+
+    
+   
+  
+
+
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+	
+    <RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/lbTV"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/tuvan"
+	    android:background="@android:color/transparent" />
+	
+	<CheckBox 
+	    android:id="@+id/etTV"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/lbTV"
+	    android:textColor="#000000"
+	    android:checked="true"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	</RelativeLayout>
+	
+    
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="2"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/lbGG"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="THẺ GIẢM GIÁ"
+	    android:background="@android:color/transparent" />
+	
+	<Spinner 
+	    android:id="@+id/etGG"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/lbGG"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp" />
+	
+	</RelativeLayout>
+    
+</LinearLayout>  
+
+
+
+
+
+
+
+
+
+
+
+    
+<!-- Mã bác sĩ -->  
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/lb4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/doctorID"
+	    android:background="@android:color/transparent" />
+	
+	<EditText 
+	    android:id="@+id/etDoctor2"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/lb4"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:inputType="number"
+	    android:imeOptions="actionNext"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	</RelativeLayout>
+    
+    
+    
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+
+	<AutoCompleteTextView 
+	    android:id="@+id/etDoctor"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/lb5"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:inputType="text"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	
+	</RelativeLayout>
+    
+</LinearLayout> 
+
+    
+
+   <!-- Chan Doan -->
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/lb6"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/commend"
+	    android:background="@android:color/transparent" />
+	
+	<EditText 
+	    android:id="@+id/etChanDoan"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/lb6"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:inputType="text"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp" />
+	
+	</RelativeLayout>
+    
+</LinearLayout>  
+    
+    
+    
+    
+  
+
+
+    
+
+    
+
+
+<!-- Ly do -->  
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/lx1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/lydo"
+	    android:background="@android:color/transparent" />
+	
+	<AutoCompleteTextView 
+	    android:id="@+id/etLyDo"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/lx1"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:inputType="text"
+	    android:imeOptions="actionNext"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	</RelativeLayout>
+    
+    
+    
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="2"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+
+	<AutoCompleteTextView 
+	    android:id="@+id/etLydoE"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/lb5"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:inputType="text"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp" />
+	
+	
+	</RelativeLayout>
+    
+</LinearLayout> 
+    
+
+
+
+    
+    
+
+
+    
+    
+
+
+
+    
+    
+    
+
+
+
+    
+
+    
+
+
+</LinearLayout>
+</ScrollView>
+    
+

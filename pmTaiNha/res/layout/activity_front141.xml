@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:orientation="vertical" android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       tools:context=".Front_Activity">
+       
+
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" >
+        <!--  View Title Label -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="LOGIN"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <!--  Email Label -->
+        
+        
+        
+        
+        
+        
+        
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/user" />
+        <!--  Email TextField -->
+        <EditText
+            android:id="@+id/loginUser"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+        
+        
+        
+        
+        
+        
+        
+         
+        <!--  Password Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="@string/pass" />
+        <!--  Password TextField -->
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true" />
+        
+        
+        
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="ĐĂNG NHẬP" />
+        
+        <TextView android:id="@+id/login_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10sp"
+                    android:textStyle="bold"/>
+        <!--  Login Button -->       
+        
+ 
+        <!--  Link to Registration Screen -->
+   
+    </LinearLayout>
+    
+    
+    
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+    
+       <LinearLayout android:id="@+id/top_container" 
+               android:orientation="horizontal"
+               android:layout_weight="1" 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content">
+           
+            <Button
+	        android:id="@+id/btnInput" style="?android:attr/borderlessButtonStyle"
+	        android:layout_weight="2" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:drawableLeft="@drawable/fron_run"
+	        android:text="Tiếp nhận thông tin" 
+	        android:textSize="30sp" />
+	               
+	        <Button
+	        android:id="@+id/btnSynced" style="?android:attr/borderlessButtonStyle"
+	        android:layout_weight="2" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:drawableLeft="@drawable/front_text" 
+	        android:text="Quản lý đồng bộ"
+	        android:textSize="30sp" />
+                  
+       </LinearLayout>
+       
+       
+       
+       <LinearLayout android:orientation="horizontal"
+               android:layout_weight="1" 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content">
+              
+	        <Button
+	        android:id="@+id/btnPrepare" style="?android:attr/borderlessButtonStyle"
+	        android:layout_weight="2" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:drawableLeft="@drawable/front_contact" 
+	        android:text="Danh sách tổng đài"
+	        android:textSize="30sp" />
+	               
+			
+			<Button
+	        android:id="@+id/btnUpdate" style="?android:attr/borderlessButtonStyle"
+	        android:layout_weight="2" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:drawableLeft="@drawable/stock_task"
+	        android:text="Cập nhật phiên bản"
+	        android:textSize="30sp" />
+             
+       </LinearLayout>
+       
+       </LinearLayout>
+
+</LinearLayout>

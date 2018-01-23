@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+    <LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="10dip" >
+   
+<!--   P1 -->
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="10dp" >
+       
+        <Button
+       	android:text="Tpt máu 18" android:id="@+id/tv11" android:layout_height="wrap_content"
+       	android:layout_width="0dp" android:textSize="26sp" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"
+       	android:clickable="true" android:onClick="onClick" />     
+      
+        <Button
+       	android:text="22" android:id="@+id/tv12" android:layout_height="wrap_content"	
+       	android:layout_width="0dp" android:textSize="26sp"  android:layout_weight="1"
+        android:background="@android:drawable/editbox_background"
+       	android:clickable="true" android:onClick="onClick" />  
+    
+        <Button
+       	android:text="32" android:id="@+id/tv13" android:layout_height="wrap_content"
+       	android:layout_width="0dp" 	android:textSize="26sp"  android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"
+       	android:clickable="true" android:onClick="onClick" /> 
+        
+        </LinearLayout>
+        
+        
+    <!--   P2 -->
+    
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="20dp">
+        
+	        <Button
+	       	android:text="Nhóm máu ABO" android:id="@+id/tv21" android:clickable="true" android:layout_width="wrap_content" 
+	       	android:onClick="onClick" android:layout_height="wrap_content"  android:layout_weight="1"
+	       	android:textSize="26sp" android:background="@android:drawable/editbox_background" />     
+	      
+	        <Button
+	       	android:text="RH" android:id="@+id/tv22" android:layout_height="wrap_content" android:layout_width="wrap_content"
+	       	android:onClick="onClick" android:clickable="true"   android:layout_weight="1"
+	       	android:textSize="26sp" android:background="@android:drawable/editbox_background"/> 
+	       	
+	        <Button
+	       	android:text="Eldoncard" android:id="@+id/tv23" android:clickable="true" android:onClick="onClick" 
+	       	android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1"
+	       	android:textSize="26sp" android:background="@android:drawable/editbox_background" /> 
+	       	
+        </LinearLayout>
+  
+      
+ <!--   P3 -->
+     
+     <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="20dp">
+        
+       <Button
+       	android:text="Máu lắng: sau 1 giờ, sau 2 giờ" android:id="@+id/tv31" android:clickable="true" 
+       	android:onClick="onClick"  android:layout_height="wrap_content" android:layout_width="0dp" 
+       	android:textSize="26sp"  android:layout_weight="1" android:background="@android:drawable/editbox_background"  />     
+ 
+      </LinearLayout>
+        
+ <!--   P4 -->
+        
+       <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="20dp">
+       
+       <Button
+       	android:text="Máu chảy, máu đông" android:id="@+id/tv41" android:layout_width="0dp" 
+       	android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content"
+	    android:textSize="26sp" android:layout_weight="1" android:background="@android:drawable/editbox_background" />
+       
+       <Button
+       	android:text="Điện di protein" android:id="@+id/tv42" android:layout_width="0dp" 
+       	android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content"
+	    android:textSize="26sp" android:layout_weight="1" android:background="@android:drawable/editbox_background" />
+       
+     
+       </LinearLayout> 
+       
+       
+    <!--   P5 -->
+    
+       <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="20dp">
+        
+       <Button
+       	android:text="Huyết đồ" android:id="@+id/tv51" android:clickable="true" android:onClick="onClick" 
+       	android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="26sp"
+        android:layout_weight="1" android:background="@android:drawable/editbox_background"/>     
+      
+       <Button
+       	android:text="Điện di huyết sắc tố" android:id="@+id/tv52" android:clickable="true" 
+       	android:onClick="onClick" 	android:layout_height="wrap_content"	android:layout_width="0dp" 
+       	android:textSize="26sp" android:layout_weight="1" android:background="@android:drawable/editbox_background"/> 
+        
+ 
+       	</LinearLayout> 
+       	
+       
+     <!--   P6 -->
+        
+       <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="20dp">
+        
+       <Button
+       	android:text="Kháng thể kháng nhân (ANA)" android:id="@+id/tv61" android:clickable="true"
+       	android:onClick="onClick" android:layout_height="wrap_content" android:background="@android:drawable/editbox_background"
+       	android:layout_width="wrap_content" android:textSize="26sp" android:layout_weight="1" />     
+      
+       <Button
+       	android:text="Anti-dsDNA" android:id="@+id/tv62" android:clickable="true" 
+       	android:onClick="onClick" android:layout_height="wrap_content"	android:background="@android:drawable/editbox_background"
+       	android:layout_width="wrap_content" android:textSize="26sp" android:layout_weight="1" /> 
+         
+       </LinearLayout> 
+       	
+    <!--   P7 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="20dp">
+        
+       <Button
+       	android:text="TB Hargraves" android:id="@+id/tv71" android:clickable="true" 
+       	android:onClick="onClick" android:layout_height="wrap_content" android:background="@android:drawable/editbox_background"
+       	android:layout_width="wrap_content" android:textSize="26sp" android:layout_weight="1" />     
+      
+       <Button
+       	android:text="HLA-B27" android:id="@+id/tv72" android:clickable="true" android:onClick="onClick"	
+       	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1" android:background="@android:drawable/editbox_background"/> 
+        
+       <Button
+       	android:text="Dấu hiệu dây thắt" android:id="@+id/tv73" android:clickable="true" 
+       	android:onClick="onClick"	android:layout_height="wrap_content" android:background="@android:drawable/editbox_background"	
+       	android:layout_width="wrap_content" android:textSize="26sp" android:layout_weight="1" /> 
+       	
+       </LinearLayout> 
+       
+        
+<!--   P8 -->
+
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="20dp">
+       
+       <Button
+       	android:text="TG Prothrombin (Quick), TL Prothrombin, INR" android:id="@+id/tv81" 
+       	android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" 
+       	android:layout_width="0dp" android:textSize="26sp" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"
+       	 />     
+      
+        </LinearLayout> 
+        
+        
+ <!--   P9 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="20dp">
+        
+       <Button
+       	android:text="TG Thrombin (TT)" android:id="@+id/tv91" android:clickable="true" 
+       	android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" 
+       	android:textSize="26sp" android:layout_weight="1" android:background="@android:drawable/editbox_background" />     
+      
+       <Button
+       	android:text="Cephalin-Kaolin (APTT)"  android:id="@+id/tv92" android:clickable="true" 
+       	android:onClick="onClick"	android:layout_height="wrap_content" android:background="@android:drawable/editbox_background"	
+       	android:layout_width="wrap_content" android:textSize="26sp" android:layout_weight="1"/> 
+       
+		</LinearLayout>
+		
+        
+    <!--   P10 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="20dp">
+        
+       <Button
+       	android:text="Fibrinogen" android:id="@+id/tv101" android:clickable="true" android:onClick="onClick" 
+       	android:layout_height="wrap_content" android:layout_width="wrap_content" 
+       	android:textSize="26sp" 	android:layout_weight="1"  android:background="@android:drawable/editbox_background"/>     
+      
+      <Button
+       	android:text="D-dimer" android:id="@+id/tv102" android:clickable="true" android:onClick="onClick"	
+       	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       android:layout_weight="1" android:background="@android:drawable/editbox_background" /> 
+       
+      </LinearLayout>
+      
+        
+    <!--   P11 -->
+    
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="20dp">
+      
+            
+       <Button
+       	android:text="Nghiệm pháp Coombs:TT, GT" android:id="@+id/tv111" android:clickable="true" 
+       	android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="0dp" 
+       	android:textSize="26sp" android:layout_weight="1" android:background="@android:drawable/editbox_background" />            
+        
+		 </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

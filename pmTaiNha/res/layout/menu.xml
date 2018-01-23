@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- Single menu item 
+		 Set id, icon and Title for each menu item
+	-->
+  
+  <item android:id="@+id/menu_clear"
+    	  android:icon="@drawable/back"
+          android:title="Xóa toàn bộ dữ liệu đã nhập" /> 
+  
+ <!--  <item android:id="@+id/menu_clear_error"
+    	  android:icon="@drawable/back"
+          android:title="Clear log error" /> -->
+    
+    <item android:id="@+id/menu_sync"
+    	  android:icon="@drawable/save"
+          android:title="Đồng bộ dữ liệu" />
+    
+    <item android:id="@+id/menu_check"
+    	  android:icon="@drawable/save"
+          android:title="Kiểm tra kết nối" />
+
+    <item android:id="@+id/menu_back"
+    	  android:icon="@drawable/back"
+          android:title="Back" />
+
+     <item android:id="@+id/scan"
+    	  android:icon="@drawable/back"
+          android:title="Scan mã vạch" />
+     
+     <item android:id="@+id/error"
+    	  android:icon="@drawable/back"
+          android:title="Kiểm tra lỗi" />
+  
+</menu>

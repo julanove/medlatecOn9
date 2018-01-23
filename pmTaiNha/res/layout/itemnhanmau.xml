@@ -1,0 +1,38 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width = "fill_parent" android:layout_height = "wrap_content"
+ style="@style/ButtonText" android:background="@drawable/btn_white_glossy" >
+          
+	<LinearLayout
+        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+        android:orientation="horizontal" android:layout_alignParentStart="true">
+        
+		<TextView
+              android:id="@+id/tvLoai" android:layout_width="0dp" android:layout_weight="1" android:paddingTop="12dp"
+              android:textSize="17sp" android:textStyle="bold" android:layout_height="wrap_content"
+              android:textColor="#000000" android:text="TEST" android:focusable="false"/>
+        
+		<TextView
+            android:text="TEST" android:id="@+id/tvSoLuong"
+            android:layout_height="wrap_content"  android:layout_width="0dp" android:layout_weight="1"
+            android:textSize="16sp" android:textColor="#000000" android:focusable="false" />
+		
+         <TextView
+            android:text="TEST"
+            android:id="@+id/tvGhiChu" android:layout_height="wrap_content"
+            android:layout_width="0dp" android:layout_weight="1" android:textSize="16sp"
+            android:textColor="#000000" android:focusable="false"/>
+  
+         </LinearLayout>
+         
+	<LinearLayout
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_alignParentEnd="true">
+         
+		<Button android:id="@+id/btnDelete" 
+              android:text="Xóa" android:focusable="false" 
+              android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"/>
+        
+	</LinearLayout>
+    
+</RelativeLayout>

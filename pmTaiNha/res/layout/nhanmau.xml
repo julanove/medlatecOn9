@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+ 
+    <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant9"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="LOẠI ỐNG: "
+	    android:background="@android:color/transparent" />
+	
+	<TextView 
+	    android:id="@+id/txtUnk"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant9"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="5dp"
+	    android:textSize="18sp" />
+	
+	<Spinner 
+	    android:id="@+id/etLoai"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/txtUnk"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp"
+	    android:inputType="text"
+	    android:text="" />
+	
+	</RelativeLayout>
+	
+	<RelativeLayout
+	  android:layout_width="100dp"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant92"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="SL: "
+	    android:background="@android:color/transparent" />
+	
+	<TextView 
+	    android:id="@+id/etCV2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant92"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp"
+	    android:textSize="18sp" />
+	
+	<Spinner 
+	    android:id="@+id/etSL"
+	    android:layout_width="50dp"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/etCV2"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp"
+	    android:inputType="text"
+	    android:text="" />
+	
+	</RelativeLayout>
+    
+	
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant93"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="Trạng thái: "
+	    android:background="@android:color/transparent" />
+	
+	<TextView 
+	    android:id="@+id/etCV3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant93"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp"
+	    android:textSize="18sp" />
+	
+	<EditText 
+	    android:id="@+id/etGhiChu"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/etCV3"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp"
+	    android:inputType="text"
+	    android:text="" />
+	
+	</RelativeLayout>
+	
+	
+</LinearLayout> 
+
+
+    <Button
+        android:id="@+id/btnSave"
+        style="@style/ButtonText" android:background="@drawable/btn_green_matte"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="THÊM MẪU" />
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+ 
+</LinearLayout>

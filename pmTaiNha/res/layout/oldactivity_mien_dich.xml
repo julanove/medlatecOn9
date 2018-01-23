@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+    <AbsoluteLayout
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:paddingBottom="30dp">
+   
+<!--   P1 -->
+        
+        <TextView
+       	android:text="HbsAg" android:id="@+id/tv11" android:layout_height="wrap_content" android:layout_width="wrap_content" 	android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="20dp" android:clickable="true" android:onClick="onClick" />    
+       	
+        <TextView
+       	android:text=" định lượng" android:id="@+id/tv13" android:layout_height="wrap_content" android:layout_width="wrap_content" 	android:textSize="26sp"
+       	android:layout_x="90dp" android:layout_y="20dp" android:clickable="true" android:onClick="onClick" />   
+      
+    <TextView
+       	android:text="HBsAb định lượng" android:id="@+id/tv12" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="300dp" android:layout_y="20dp" android:clickable="true" android:onClick="onClick"   /> 
+        
+
+        
+    <!--   P2 -->
+        
+        <TextView
+       	android:text="HBeAg" android:id="@+id/tv21"   android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp" android:layout_x="10dp" android:layout_y="80dp"  />   
+       	
+        <TextView
+       	android:text="Cobas" android:id="@+id/tv25"   android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp" android:layout_x="100dp" android:layout_y="80dp"  /> 
+      
+    <TextView
+       	android:text="HbeAb" android:id="@+id/tv22"   android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp" android:layout_x="200dp" android:layout_y="80dp" /> 
+       	
+    <TextView
+       	android:text="Cobas" android:id="@+id/tv26"   android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp" android:layout_x="290dp" android:layout_y="80dp" /> 
+       	
+    <TextView
+       	android:text="HBcAb:IgM, " android:id="@+id/tv23"   android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp" android:layout_x="390dp" android:layout_y="80dp" /> 
+       	
+    <TextView
+       	android:text=" total" android:id="@+id/tv24"   android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp" android:layout_x="535dp" android:layout_y="80dp" /> 
+        
+     <!--   P3 -->
+        
+       <TextView
+       	android:text="HBV-DNA:PCR"  android:id="@+id/tv31" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="140dp" />     
+      
+    <TextView
+       	android:text="Cobas Taqman"  android:id="@+id/tv32" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="230dp" android:layout_y="140dp" /> 
+        
+    <TextView
+       	android:text="Genotye"  android:id="@+id/tv33" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:textSize="26sp" android:layout_width="wrap_content"	
+       	android:layout_x="450dp"  android:layout_y="140dp"  />   
+        
+ <!--   P4 -->
+        
+       <TextView
+       	android:text="HEVAb-IgM"  android:id="@+id/tv41" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="200dp" />     
+      
+    <TextView
+       	android:text="HAVAb:Igm, "  android:id="@+id/tv42" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="200dp" android:layout_y="200dp" /> 
+       	
+    <TextView
+       	android:text=" total"  android:id="@+id/tv43" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="350dp" android:layout_y="200dp" /> 
+       	
+    <TextView
+       	android:text="HCVAb"  android:id="@+id/tv44" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="440dp" android:layout_y="200dp" /> 
+        
+    <!--   P5 -->
+        
+       <TextView
+       	android:text="HCV-RNA "  android:id="@+id/tv51" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="260dp" />     
+       	
+       <TextView
+       	android:text=" Genotye"  android:id="@+id/tv52" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="230dp" android:layout_y="260dp" />  
+      
+    <TextView
+       	android:text="HIV:Nhanh"  android:id="@+id/tv53" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="350dp" android:layout_y="260dp" /> 
+        
+    <TextView
+       	android:text="Elecsys"  android:id="@+id/tv54" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:textSize="26sp" android:layout_width="wrap_content"	
+       	android:layout_x="500dp"  android:layout_y="260dp"  />   
+       	
+    <TextView
+       	android:text=": Roche"  android:id="@+id/tv55" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:textSize="26sp" android:layout_width="wrap_content"	
+       	android:layout_x="130dp"  android:layout_y="260dp"  />   
+       	
+     <!--   P6 -->
+        
+       <TextView
+       	android:text="Dengue fever:IgM, IgG"  android:id="@+id/tv61" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="320dp" />     
+      
+    <TextView
+       	android:text="NS1" 	android:layout_height="wrap_content"  android:id="@+id/tv62" android:clickable="true" android:onClick="onClick"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="330dp" android:layout_y="320dp" /> 
+        
+    <TextView
+       	android:text="PCR-RNA"  android:id="@+id/tv63" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:textSize="26sp" android:layout_width="wrap_content"	
+       	android:layout_x="440dp"  android:layout_y="320dp"  />  
+       	
+    <!--   P7 -->
+        
+       <TextView
+       	android:text="Rubella:IgM, "  android:id="@+id/tv71" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="380dp" />   
+       	
+       <TextView
+       	android:text=" IgG"  android:id="@+id/tv72" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="160dp" android:layout_y="380dp" />   
+      
+    <TextView
+       	android:text="Toxoplasma gondii:IgM, "  android:id="@+id/tv73" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="248dp" android:layout_y="380dp" /> 
+       	
+    <TextView
+       	android:text=" IgG"  android:id="@+id/tv74" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="535dp" android:layout_y="380dp" /> 
+        
+   
+       	
+<!--   P8 -->
+        
+       <TextView
+       	android:text="CMV (Cytomegalovirus): IgM, "  android:id="@+id/tv81" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="440dp" />     
+       	
+       <TextView
+       	android:text=" IgG"  android:id="@+id/tv82" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="370dp" android:layout_y="440dp" />     
+      
+    <TextView
+       	android:text="PCR-DNA"   android:id="@+id/tv83" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="450dp" android:layout_y="440dp" /> 
+        
+ <!--   P9 -->
+        
+       <TextView
+       	android:text="Herpes:IgM, "  android:id="@+id/tv91" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="500dp" />     
+       	
+       <TextView
+       	android:text=" IgG"  android:id="@+id/tv92" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="170dp" android:layout_y="500dp" />    
+      
+    <TextView
+       	android:text="EBV:IgM, "  android:id="@+id/tv93" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="260dp" android:layout_y="500dp" /> 
+       	
+    <TextView
+       	android:text=" IgG"  android:id="@+id/tv94" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="380dp" android:layout_y="500dp" /> 
+        
+    <TextView
+       	android:text="PCR-DNA"  android:id="@+id/tv95" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:textSize="26sp" android:layout_width="wrap_content"	
+       	android:layout_x="450dp"  android:layout_y="500dp"  />  
+
+    <!--   P10 -->
+        
+       <TextView
+       	android:text="HPV-DNA: Định tính, " android:id="@+id/tv101" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="560dp" />     
+       	
+        <TextView
+       	android:text=" Genotype" android:id="@+id/tv102" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="320dp" android:layout_y="560dp" /> 
+      
+       
+    <!--   P11 -->
+        
+       <TextView
+       	android:text="Influenza typ A: Test"  android:id="@+id/tv111" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="620dp" />     
+      
+    <TextView
+       	android:text="EV 71: IgM, IgG"  android:id="@+id/tv112" android:clickable="true" android:onClick="onClick" 	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="320dp" android:layout_y="620dp" /> 
+        
+     <!--   P12 -->
+        
+       <TextView
+       	android:text="Anti Cardiolipin: IgM, "  android:id="@+id/tv121" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="680dp" />    
+       	
+       <TextView
+       	android:text=" IgG"  android:id="@+id/tv122" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="275dp" android:layout_y="680dp" /> 
+      
+    <TextView
+       	android:text="Anti B2 Glycorotein"  android:id="@+id/tv123" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="360dp" android:layout_y="680dp" /> 
+       	
+       	
+    <!--   P13 -->
+        
+       <TextView
+       	android:text="Anti phospholipid: IgM, "  android:id="@+id/tv131" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="740dp" />     
+       	
+       <TextView
+       	android:text=" IgG"  android:id="@+id/tv132" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="308dp" android:layout_y="740dp" />     
+      
+    <!--   P14 -->
+        
+     <TextView
+       	android:text="CRP, "  android:id="@+id/tv141" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="10dp" android:layout_y="800dp" />     
+       	
+     <TextView
+       	android:text=" hsCRP: Định lượng"  android:id="@+id/tv142" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="100dp" android:layout_y="800dp" />   
+      
+    <TextView
+       	android:text="IgA, "  android:id="@+id/tv143" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="350dp" android:layout_y="800dp" /> 
+       	
+    <TextView
+       	android:text=" IgG, "  android:id="@+id/tv144" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="420dp" android:layout_y="800dp" /> 
+       	
+    <TextView
+       	android:text=" IgM"  android:id="@+id/tv145" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_x="490dp" android:layout_y="800dp" /> 
+        
+    
+<!--   P15 -->
+        
+   <TextView
+       	android:text="ASLO"  android:id="@+id/tv151" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp" android:layout_x="10dp"  android:layout_y="860dp"
+        />     
+      
+    <TextView
+       	android:text="Y-Latex (RF)"  android:id="@+id/tv152" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp" 	android:layout_x="120dp"  android:layout_y="860dp"
+        /> 
+        
+    <TextView
+       	android:text="Anti-CCP"  android:id="@+id/tv153" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:textSize="26sp"
+       	android:layout_width="wrap_content" android:layout_x="300dp" android:layout_y="860dp"
+        /> 
+        
+    <TextView
+       	android:text="C3"  android:id="@+id/tv154" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:textSize="26sp"
+       	android:layout_width="wrap_content" android:layout_x="440dp" android:layout_y="860dp"
+        /> 
+        
+    <TextView
+       	android:text="C4"  android:id="@+id/tv155" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:textSize="26sp"
+       	android:layout_width="wrap_content" android:layout_x="500dp" android:layout_y="860dp"
+        /> 
+  
+
+</AbsoluteLayout>
+</ScrollView>

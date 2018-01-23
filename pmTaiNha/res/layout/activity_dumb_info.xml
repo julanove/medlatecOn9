@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+ 
+    <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:baselineAligned="false"
+       android:paddingTop="10dp">
+         
+	<RelativeLayout
+	  android:layout_width="0dp"
+	  android:layout_weight="1"
+	  android:layout_height="50dp"
+	  android:background="@android:drawable/editbox_background" >
+	
+	<TextView 
+	    android:id="@+id/constant9"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textStyle="bold"
+	    android:textColor="#C0C0C0"
+	    android:text="@string/matongdai"
+	    android:background="@android:color/transparent" />
+	
+	<TextView 
+	    android:id="@+id/etCV"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/constant9"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp"
+	    android:textSize="18sp" />
+	
+	<EditText 
+	    android:id="@+id/txtCV"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_toRightOf="@+id/etCV"
+	    android:textColor="#000000"
+	    android:textStyle="bold"
+	    android:background="@android:color/transparent"
+	    android:paddingLeft="15dp"
+	    android:inputType="text"
+	    android:text="@string/SIDs" />
+	
+	</RelativeLayout>
+    
+</LinearLayout> 
+
+
+    <Button
+        android:id="@+id/btnSave"
+        style="@style/ButtonText" android:background="@drawable/btn_green_matte"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="LẤY ĐỊA CHỈ" />
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+ 
+</LinearLayout>

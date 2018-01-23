@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+     <LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="10dip" >
+   
+<!--   P1 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="10dp" >
+       
+            
+        <Button
+       	android:text="PRO GRP" android:id="@+id/tv11" android:layout_height="wrap_content"	android:layout_width="0dp" 	android:textSize="26sp"
+       	 android:clickable="true" android:onClick="onClick" android:layout_weight="1"  android:background="@android:drawable/editbox_background"  />     
+      
+        <Button
+       	android:text="Pesinogen" android:id="@+id/tv12" android:layout_height="wrap_content"	android:layout_width="0dp" 	android:textSize="26sp"
+       android:clickable="true" android:onClick="onClick" android:layout_weight="1"  android:background="@android:drawable/editbox_background"  />  
+    
+        <Button
+       	android:text="I/II" android:id="@+id/tv13" android:layout_height="wrap_content"	android:layout_width="0dp" 	android:textSize="26sp"
+       	 android:clickable="true" android:onClick="onClick" android:layout_weight="1"  android:background="@android:drawable/editbox_background"  /> 
+       	
+        <Button
+       	android:text="Anti-SM" android:id="@+id/tv14" android:layout_height="wrap_content"	android:layout_width="0dp" 	android:textSize="26sp"
+      android:clickable="true" android:onClick="onClick" android:layout_weight="1"  android:background="@android:drawable/editbox_background"   /> 
+        
+        </LinearLayout>
+        
+    <!--   P2 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+        
+        <Button
+       	android:text="HBsAG ĐL" android:id="@+id/tv21" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp"  android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />     
+      
+    <Button
+       	android:text="DHEA.SO4" android:id="@+id/tv22" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp" android:layout_weight="1"  android:background="@android:drawable/editbox_background"  /> 
+    
+    </LinearLayout>
+    
+     <!--   P3 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+        
+       <Button
+       	android:text="Variecella zoster PCR" android:id="@+id/tv31" android:clickable="true" android:onClick="onClick" 
+android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />     
+ 
+        <Button
+       	android:text="IgG" android:id="@+id/tv32" android:clickable="true" android:onClick="onClick"  
+       	android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_weight="1"  android:background="@android:drawable/editbox_background"   /> 
+       	
+        <Button
+       	android:text="IgM" android:id="@+id/tv33" android:clickable="true" android:onClick="onClick"  
+       	android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	 android:layout_weight="1"  android:background="@android:drawable/editbox_background"   /> 
+        
+        </LinearLayout>
+        
+ <!--   P4 -->
+ 
+ <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp"   >
+        
+       <Button
+       	android:text="Sởi IgG" android:id="@+id/tv41" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />     
+       	
+       <Button
+       	android:text="IgM" android:id="@+id/tv42" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />   
+       	
+       <Button
+       	android:text="PCR" android:id="@+id/tv43" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />  
+       	
+       <Button
+       	android:text="Đột biến CP-P" android:id="@+id/tv44" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       android:layout_weight="1"  android:background="@android:drawable/editbox_background"    />  
+        
+       </LinearLayout>
+     
+        
+    <!--   P5 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp"   >
+        
+       <Button
+       	android:text="Mumps IgG" android:id="@+id/tv51" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />     
+      
+    <Button
+       	android:text="IgM" android:id="@+id/tv52" android:clickable="true" android:onClick="onClick" 	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_weight="1"  android:background="@android:drawable/editbox_background"   /> 
+        
+    <Button
+       	android:text="EBV IgG" android:id="@+id/tv53" android:clickable="true" android:onClick="onClick" 	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1"  android:background="@android:drawable/editbox_background"   /> 
+       	
+    <Button
+       	android:text="IgM" android:id="@+id/tv54" android:clickable="true" android:onClick="onClick" 	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       android:layout_weight="1"  android:background="@android:drawable/editbox_background"   /> 
+       	
+    <Button
+       	android:text="PCR" android:id="@+id/tv55" android:clickable="true" android:onClick="onClick" 	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       android:layout_weight="1"  android:background="@android:drawable/editbox_background"   /> 
+ 
+    </LinearLayout>
+       	
+     <!--   P6 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+        
+       <Button
+       	android:text="Sirolumus" android:id="@+id/tv61" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />     
+      
+    <Button
+       	android:text="Ceruloplasmine" android:id="@+id/tv62" android:clickable="true" android:onClick="onClick" 	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_weight="1"  android:background="@android:drawable/editbox_background"   /> 
+       	
+    <Button
+       	android:text="LA" android:id="@+id/tv63" android:clickable="true" android:onClick="onClick" 	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_weight="1"  android:background="@android:drawable/editbox_background"   /> 
+         
+    </LinearLayout>
+       	
+    <!--   P7 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+        
+       <Button
+       	android:text="CHolinesterase" android:id="@+id/tv71" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />     
+      
+    <Button
+       	android:text="G6PD" android:id="@+id/tv72" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       android:layout_weight="1"  android:background="@android:drawable/editbox_background"    /> 
+        
+    <Button
+       	android:text="NH3 máu" android:id="@+id/tv73" android:clickable="true" android:onClick="onClick"	android:layout_height="wrap_content"	android:layout_width="wrap_content" android:textSize="26sp"
+       android:layout_weight="1"  android:background="@android:drawable/editbox_background"    /> 
+    
+    </LinearLayout>	
+    
+<!--   P8 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+        
+       <Button
+       	android:text="CU" android:id="@+id/tv81" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />     
+       	
+       <Button
+       	android:text="Phốt pho" android:id="@+id/tv83" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       android:layout_weight="1"  android:background="@android:drawable/editbox_background"    />  
+       	
+       <Button
+       	android:text="Magie" android:id="@+id/tv84" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />  
+       	
+       <Button
+       	android:text="NT" android:id="@+id/tv85" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />  
+       	
+       <Button
+       	android:text="NST đồ" android:id="@+id/tv82" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />  
+      
+       </LinearLayout>
+
+<!--   P9 -->
+
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+
+		<Button
+       	android:text="Nghiện NT 5 chất" android:id="@+id/tv91" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />    
+        
+		<Button
+       	android:text="thường" android:id="@+id/tv92" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />  
+        
+		<Button
+       	android:text="Nghiện máu" android:id="@+id/tv93" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />  
+     
+		</LinearLayout>
+		
+<!--   P10 -->
+
+			<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+		<Button
+       	android:text="Viêm não NB IGM" android:id="@+id/tv101" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />   
+       	
+		<Button
+       	android:text="IGG" android:id="@+id/tv102" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />  
+       
+		<Button
+       	android:text="Widal" android:id="@+id/tv105" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />  
+       	
+		</LinearLayout>
+     
+<!--   P11 -->
+
+<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+
+		<Button
+       	android:text="HCV-RNA (QIAGEN artus Taqman):" android:id="@+id/tv103" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       	android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />   
+       	
+		<Button
+       	android:text="HCV-RNA (QIAGEN Care Taqman):" android:id="@+id/tv104" android:clickable="true" android:onClick="onClick" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:layout_weight="1"  android:background="@android:drawable/editbox_background"   />  
+    
+		</LinearLayout>
+
+			
+</LinearLayout>
+</ScrollView>

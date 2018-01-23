@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="medlatec.listview"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- client -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+
+    <!-- Sync Adapter -->
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- GPS -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/medlatec"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:vmSafeMode="true" >
+        <service
+            android:name=".sync.TestSecService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="TestService" >
+        </service>
+        <!--
+        <service
+            android:name=".sync.UpdateService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="UpdateService" >
+        </service>
+        -->
+        <!--
+    <service 
+        	android:name="medlatec.listview.TestSyncService">
+	    <intent-filter>
+	        <action android:name="android.content.TestSyncAdapter" />
+	    </intent-filter>
+	    <meta-data
+            android:name="android.content.TestSyncAdapter"
+            android:resource="@xml/syncadapter" />
+		</service>
+		
+        
+        <service
+			android:name="medlatec.listview.AuthenticatorService">
+        <intent-filter>
+            <action android:name="android.account.Authenticator"/>
+        </intent-filter>
+        <meta-data
+            android:name="android.account.Authenticator"
+            android:resource="@xml/authenticator" />
+    </service>
+        -->
+
+
+        <!--
+        <provider android:name="TestSyncService"
+	    android:authorities="com.company.content"
+	    android:syncable="true"
+	    android:exported="false"
+	    android:label="DummyProvider" />
+        -->
+
+        <activity
+            android:name=".Front_Activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        <activity
+            android:name="medlatec.listview.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="medlatec.listview.Front_Activity"
+            android:label="@string/title_activity_front_" >
+        </activity>
+        -->
+
+
+        <!--
+             <activity
+            android:name="medlatec.listview.TestCode_2"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="medlatec.listview.TestCode_3"
+            android:label="@string/title_activity_third" >
+        </activity>
+        <activity
+            android:name="medlatec.listview.TestCode_4"
+            android:label="@string/title_activity_4" >
+        </activity>
+        -->
+        <activity
+            android:name=".testcode.TestCode_Selected"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".PatientPrinter"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="medlatec.tainha" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PatientInformation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/select_device"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".testcode.TestCode_HoaSinh"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".testcode.TestCode_HuyetHoc"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".testcode.TestCode__MienDich"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".testcode.TestCode_MienDich"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".testcode.TestCode_ViKhuan"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".testcode.TestCode_TeBao"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".testcode.TestCode_NoiTiet"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".DumbInfo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SyncActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".testcode.TestCode_Khac"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".testcode.TestCode_Cay"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!--
+        <activity
+            android:name="medlatec.listview.Front_Activity"
+            android:label="@string/app_name">
+        </activity>
+        -->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.jwetherell.quick_response_code.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/icon"
+            android:label="@string/capture_name"
+            android:screenOrientation="landscape"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.jwetherell.quick_response_code.DecoderActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/icon"
+            android:label="@string/decoder_name"
+            android:screenOrientation="landscape"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.jwetherell.quick_response_code.EncoderActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/icon"
+            android:label="@string/encoder_name"
+            android:screenOrientation="landscape"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name=".testcode.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".Lansoanh"
+            android:label="@string/title_activity_lansoanh" >
+        </activity>
+        <activity
+            android:name=".MainTweet"
+            android:label="@string/title_activity_main_tweet" >
+        </activity>
+        <activity
+            android:name=".ReceiptMain"
+            android:label="@string/title_activity_doctor_printer" >
+        </activity>
+        <activity
+            android:name=".ReceiptPrinter"
+            android:label="@string/title_activity_receipt" >
+        </activity>
+        <activity
+            android:name=".ReceiptTK"
+            android:label="@string/title_activity_receipt_tk" >
+        </activity>
+        <activity
+            android:name=".GetGPS"
+            android:label="@string/title_activity_get_gps" >
+        </activity>
+        <activity
+            android:name=".GoiKham"
+            android:label="@string/title_activity_goi_kham" >
+        </activity>
+        <activity
+            android:name=".GetspleActivity"
+            android:label="@string/title_activity_getsple" >
+        </activity>
+        <activity
+            android:name=".Hotro"
+            android:label="@string/title_activity_hotro" >
+        </activity>
+    </application>
+
+</manifest>

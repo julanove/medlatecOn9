@@ -1,0 +1,66 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width = "fill_parent" android:layout_height = "wrap_content"
+ style="@style/ButtonText" android:background="@drawable/btn_black" >
+          
+	<LinearLayout
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        
+	    <TextView
+            android:text="SID: 140114-1101001"
+            android:id="@+id/lst_SID" android:layout_height="wrap_content"
+            android:layout_width="wrap_content" android:textSize="16sp" android:textStyle="bold"
+            android:textColor="#ffffff" android:shadowColor="#000000" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="2"
+            android:focusable="false" />
+	    
+		<TextView
+              android:id="@+id/lst_NAME" android:layout_width="wrap_content"
+              android:textSize="16sp" android:textStyle="bold" android:layout_height="wrap_content"
+              android:textColor="#ffffff" android:shadowColor="#000000" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="2"
+              android:text="TÊN: LÊ DUY NGỌC" android:focusable="false"/>
+        
+		<TextView
+            android:text="NĂM SINH: 1990 - GIỚI TÍNH: M" android:id="@+id/lst_NS_GT" 
+            android:layout_height="wrap_content"  android:layout_width="wrap_content" android:textStyle="bold"
+            android:textSize="14sp" 
+            android:textColor="#ffffff" android:shadowColor="#000000" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="2"
+            android:focusable="false" />
+		
+         
+           
+         <TextView
+            android:text="ADDRESS: 42 NGHĨA DŨNG"  android:id="@+id/lst_CK_DL"
+            android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold"
+            android:textSize="14sp" 
+            android:textColor="#ffffff" android:shadowColor="#000000" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="2" 
+            android:focusable="false"/>
+    
+              
+         <TextView
+            android:text="TỔNG TIỀN: 650" android:id="@+id/lst_TOTAL"
+            android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold"
+            android:textSize="14sp" 
+            android:textColor="#ffffff" android:shadowColor="#000000" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="2"
+            android:focusable="false"/>
+
+         
+  
+         </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+         
+		<Button android:id="@+id/lst_item_Read" 
+              android:text="..." android:focusable="false" style="@style/ButtonText" android:background="@drawable/btn_blue_matte"
+              android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"/>
+
+        <Button android:id="@+id/lst_item_Delete" 
+              android:text="..." android:focusable="false" style="@style/ButtonText" android:background="@drawable/btn_blue_matte"
+              android:layout_width="match_parent"  android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"/>
+        
+	</LinearLayout>
+    
+</RelativeLayout>

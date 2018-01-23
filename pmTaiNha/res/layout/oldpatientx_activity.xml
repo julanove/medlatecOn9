@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+    
+    
+    <TableRow 
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+         android:layout_width="match_parent" >
+	    <TextView
+	        android:id="@+id/txtTitle"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="36sp"
+	        android:gravity="center"
+	        android:layout_span="4"
+	        android:text="@string/title" />
+    </TableRow>
+    
+    
+<!-- Row I -->
+    <TableRow android:layout_marginRight="30dp" >
+    <TextView
+        android:id="@+id/txtSID6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+         />
+    
+    <TextView
+        android:id="@+id/txtName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    
+    <TextView
+        android:id="@+id/txtName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    
+    <TextView
+        android:id="@+id/txtName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+         />
+    
+    <TextView
+        android:id="@+id/txtName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+         />
+
+    
+    </TableRow>
+    
+<!-- Row II -->
+    
+   <TableRow android:layout_marginRight="20dp" android:layout_marginBottom="13dp">
+    <TextView
+        android:id="@+id/txtXX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Thẻ PID: "
+        android:layout_gravity="right"
+        android:textSize="20sp"/>
+    
+    <EditText
+        android:id="@+id/etPID"
+        android:inputType="text"
+        android:layout_width="60dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:singleLine="true"/>
+    
+    
+    <TextView
+        android:id="@+id/txtCanbo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="right"
+        android:textSize="20sp"
+        android:text="Mã bảo mật:" />
+    
+    <EditText
+        android:id="@+id/etCanbo"
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    
+    </TableRow>
+    
+   <!-- Row III -->
+   
+   
+     <TableRow android:layout_marginRight="20dp" android:layout_marginBottom="13dp" >
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/sid"
+        android:layout_gravity="right"
+        android:textSize="20sp"
+         />
+    
+    <EditText
+        android:id="@+id/etSID"
+        android:inputType="number"
+        android:layout_width="60dp"
+        android:layout_span="2"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="11" />
+    
+    
+    <EditText
+        android:id="@+id/etTime"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:text="260314" />
+    
+    
+    
+    
+    
+    
+    </TableRow>
+    
+     
+       
+ <!-- Row II -->   
+   
+    
+    
+    
+     <!-- Row III -->  
+    
+    <TableRow android:layout_marginRight="20dp" android:layout_marginBottom="13dp" >
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:gravity="right"
+        android:text="@string/name" />
+    
+    <EditText
+        android:id="@+id/etPatientName"
+        android:inputType="textCapCharacters"
+        android:layout_width="60dp"
+        android:layout_span="3"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:layout_height="wrap_content"/>
+    
+    </TableRow>
+    
+    
+    
+    
+    
+    
+    
+    
+      <!-- Row IV -->  
+    <TableRow android:layout_marginRight="20dp" android:layout_marginBottom="13dp" >
+    <TextView
+        android:id="@+id/lbBOD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:gravity="right"
+        android:text="@string/year" />
+    
+    <EditText
+        android:id="@+id/etDay"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:imeOptions="actionNext"
+        />
+    
+    <EditText
+        android:id="@+id/etMonth"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:imeOptions="actionNext"
+        />
+    
+    <EditText
+        android:id="@+id/etBOD"
+        android:inputType="number"
+        android:layout_width="60dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="19"
+        android:imeOptions="actionNext"
+        />
+    
+    </TableRow>
+    
+    
+    
+    
+    
+     <!-- Row IV -->  
+    <TableRow android:layout_marginRight="20dp" android:layout_marginBottom="13dp" >
+
+    
+    <TextView
+        android:id="@+id/txtSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="right"
+        android:text="@string/sex" />
+    
+    <Spinner
+        android:id="@+id/etSex"
+        android:layout_width="60dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+    
+     <TextView
+        android:id="@+id/txtCS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+         android:gravity="right"
+        android:text="Ch/sóc:" />
+    
+    <CheckBox
+        android:id="@+id/etCS"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:checked="true"
+        android:layout_height="wrap_content"
+        />
+    
+    </TableRow>
+    
+    
+    
+    
+    
+     <!-- Row V -->  
+    <TableRow android:layout_marginRight="20dp" android:layout_marginBottom="13dp" >
+        
+         <TextView
+        android:id="@+id/txtDiLai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:gravity="right"
+        android:text="Đi lại: " />
+    
+   
+    
+    <Spinner
+        android:id="@+id/etDiLai"
+        android:layout_width="60dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+   
+
+        
+        
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+         android:gravity="right"
+        android:text="Đ/thoại:" />
+    
+    <EditText
+        android:id="@+id/etPhone"
+        android:inputType="phone"
+        android:layout_width="60dp"
+        android:textSize="20sp"
+        android:maxLength="20"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    
+    
+    
+    
+    </TableRow>
+    
+    
+    
+        <TableRow android:layout_marginRight="20dp" android:layout_marginBottom="13dp" >
+    <TextView
+        android:id="@+id/txtDoctor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+         android:gravity="right"
+        android:layout_marginLeft="10dp"
+        android:text="Mã bác sĩ" />
+    
+   <EditText
+        android:id="@+id/etDoctor2"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:imeOptions="actionNext"
+        /> 
+    
+    <!-- <AutoCompleteTextView
+        android:id="@+id/etDoctor2"
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+      
+        /> -->
+    
+    
+    <TextView
+        android:id="@+id/txtChietKhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="right"
+        android:textSize="20sp"
+        android:text="@string/chietkhau" />
+    
+    <EditText
+        android:id="@+id/etChietKhau"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        />
+    
+    </TableRow>
+    
+     <!-- Row V -->  
+    <TableRow android:layout_marginRight="20dp" android:layout_marginBottom="13dp" >
+    <TextView
+        android:id="@+id/txtDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+         android:gravity="right"
+        android:layout_marginLeft="10dp"
+        android:text="@string/doctor" />
+    
+   <!--  <EditText
+        android:id="@+id/etDoctor"
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        /> -->
+    
+    <AutoCompleteTextView
+        android:id="@+id/etDoctor"
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_span="3"
+        android:layout_height="wrap_content"
+      
+        />
+    </TableRow>
+    
+   
+    <!-- Row V -->  
+    <TableRow android:layout_marginRight="20dp" android:layout_marginBottom="13dp" >
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+         android:gravity="right"
+        android:text="@string/address" />
+    
+    <EditText
+        android:id="@+id/etAddress"
+        android:inputType="textCapCharacters"
+        android:layout_width="60dp"
+        android:layout_span="3"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    </TableRow>
+    
+    
+    
+     <!--     Row VIII   -->
+    <TableRow android:layout_marginRight="20dp" android:layout_marginBottom="13dp" >
+    <TextView
+        android:id="@+id/txtH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+         android:gravity="right"
+        android:text="Quận: " />
+    
+    <AutoCompleteTextView
+        android:id="@+id/cbH"
+        android:inputType="text"
+        android:layout_width="60dp"
+        android:layout_span="3"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+      
+        />
+    </TableRow>
+    
+    
+
+    <!-- Row VI E -->  
+    <TableRow android:layout_marginRight="20dp" android:layout_marginBottom="13dp" >
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+         android:gravity="right"
+        android:text="Email" />
+    
+    <EditText
+        android:id="@+id/etEmail"
+        android:inputType="textEmailAddress"
+        android:layout_width="60dp"
+        android:layout_span="3"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    </TableRow>
+    
+    
+    
+     <!-- Row VI -->  
+    <TableRow android:layout_marginRight="20dp" android:layout_marginBottom="13dp" >
+    <TextView
+        android:id="@+id/txtChanDoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+         android:gravity="right"
+        android:text="Ghi chú" />
+    
+    <EditText
+        android:id="@+id/etChanDoan"
+        android:inputType="text"
+        android:layout_width="60dp"
+        android:layout_span="3"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    </TableRow>
+    
+
+    
+     
+</TableLayout>
+
+
+    
+    
+

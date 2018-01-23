@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="medlatec.listview.GetspleActivity" >
+
+    <item android:id="@+id/menu_bangiao"
+    	  android:icon="@drawable/back"
+          android:title="Bàn giao mẫu" /> 
+
+</menu>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+    <LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="10dip" >
+   
+<!--   P1 Lậu-->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="10dp" >
+        
+        <Button
+       	android:text="Lậu: Soi tươi " android:id="@+id/tv11" android:layout_height="wrap_content"	android:layout_width="wrap_content" 	android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background" />     
+      
+        <Button
+       	android:text=" PCR - DNA" android:id="@+id/tv12" android:layout_height="wrap_content"	android:layout_width="wrap_content" 	android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>  
+       	 
+        </LinearLayout>
+        
+<!--   P2 -->
+            <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+      
+    <Button
+       	android:text="Chlamydia" android:id="@+id/tv21" android:layout_height="wrap_content" 
+       	android:layout_width="0dp" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick"  android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background" /> 
+        
+    <Button
+       	android:text=" IgG" android:id="@+id/tv22" android:layout_height="wrap_content" 
+       	android:layout_width="0dp" android:textSize="26sp"
+       	 android:clickable="true" android:onClick="onClick"  android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background" />
+    
+    <Button
+       	android:text=" IgM" android:id="@+id/tv23" android:layout_height="wrap_content" 
+       	android:layout_width="0dp" android:textSize="26sp"
+       	android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"  />
+    
+    <Button
+       	android:text=" Lậu PCR" android:id="@+id/tv24" android:layout_height="wrap_content" 
+       	android:layout_width="0dp" android:textSize="26sp"
+     android:clickable="true" android:onClick="onClick"  android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background" />
+       
+    </LinearLayout>
+    
+    <!--   P3 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+        
+        <Button
+       	android:text="Giang mai: RPR" android:id="@+id/tv31" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp"  android:clickable="true" android:onClick="onClick"  android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>     
+      
+    <Button
+       	android:text="Syphilis TP" android:id="@+id/tv32" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp"  android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/> 
+    
+    </LinearLayout>	
+    
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+    
+    <Button
+       	android:text="TPHA" android:id="@+id/tv33" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp"  android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/> 
+       	
+    <Button
+       	android:text="- định lượng" android:id="@+id/tv34" android:layout_height="wrap_content" android:layout_width="wrap_content"
+       	android:textSize="26sp"  android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+    
+    </LinearLayout>
+    
+     <!--   P5 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+        
+       <Button
+       	android:text="Soi tươi: Dịch âm đạo" android:id="@+id/tv51" android:layout_height="wrap_content" 
+       	android:layout_width="0dp" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>     
+      
+    <Button
+       	android:text="niệu đạo," android:id="@+id/tv52" android:layout_height="wrap_content"	
+       	android:layout_width="0dp" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/> 
+        
+    <Button
+       	android:text="nấm" android:id="@+id/tv53" android:layout_height="wrap_content" android:textSize="26sp" 
+       	android:layout_width="0dp"	
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>   
+        
+    </LinearLayout>
+    
+ <!--   P6 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+        
+       <Button
+       	android:text="Ấu trùng sán lợn" android:id="@+id/tv61" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>     
+      
+    <Button
+       	android:text="Trứng sán lá phổi" android:id="@+id/tv62"	android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/> 
+       	
+</LinearLayout>
+        
+    <!--   P7 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+        
+       <Button
+       	android:text="Rotavirus" android:id="@+id/tv71" android:layout_height="wrap_content" 
+       	android:layout_width="0dp" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>     
+      
+    <Button
+       	android:text="KST đường ruột" android:id="@+id/tv72"	android:layout_height="wrap_content"	
+       	android:layout_width="0dp" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/> 
+       	
+    <Button
+       	android:text="Soi phân" android:id="@+id/tv73"	android:layout_height="wrap_content"	
+       	android:layout_width="0dp" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/> 
+        
+ </LinearLayout>
+       	
+     <!--   P8 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+        
+       <Button
+       	android:text="Sốt rét giọt máu" android:id="@+id/tv81" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>     
+      
+       	
+  <Button
+       	android:text=" P.falchiparumtest" android:id="@+id/tv82" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+
+  </LinearLayout>
+  
+  <!--   P9 -->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+        
+       <Button
+       	android:text="Lao: Tìm BK (AFB)" android:id="@+id/tv91" android:layout_height="wrap_content"
+		android:layout_width="0dp" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>     
+       
+        <!--  <Button
+       	android:text="Mantoux" android:id="@+id/tv92" android:layout_height="wrap_content" 
+       	android:layout_width="0dp" android:textSize="26sp" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"
+        /> -->
+    
+       	
+  <Button
+       	android:text="TB Test" android:id="@+id/tv93" android:layout_height="wrap_content" 
+       	android:layout_width="0dp" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+  
+  </LinearLayout>
+  
+  <!--   P10 11-->
+        
+        <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+        
+       <Button
+       	android:text="MTB - DNA (PCR)" android:id="@+id/tv101" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>     
+       
+       <Button
+     	android:text="Hp.antigen (phân)" android:id="@+id/tv111" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+      android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/> 
+
+   </LinearLayout>
+     	
+          	<!--   P12 -->
+      
+      <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+      
+     <Button
+     	android:text="H.Pyori IgM," android:id="@+id/tv121" android:layout_height="wrap_content" 
+     	android:layout_width="0dp" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     <Button
+     	android:text=" IgG" android:id="@+id/tv122" android:layout_height="wrap_content" 
+     	android:layout_width="0dp" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     <Button
+     	android:text=" Định tính" android:id="@+id/tv123" android:layout_height="wrap_content" 
+     	android:layout_width="0dp" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+
+
+     </LinearLayout>
+     
+     <!--   P13 
+     
+     Giun chỉ (IgG)
+Ấu trùng giun chỉ
+Giun đũa chó (IgG)
+Giun Lươn (IgG)
+Giun đầu gai (IgG)
+Giun đũa (IgG)
+
+     -->
+     <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+     
+     <Button
+     	android:text="Giun chỉ" android:id="@+id/tv131" android:layout_height="wrap_content" 
+     	android:layout_width="0dp" android:textSize="26sp"
+      android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     <Button
+     	android:text="Ấu trùng giun chỉ" android:id="@+id/tv132" android:layout_height="wrap_content" 
+     	android:layout_width="0dp" android:textSize="26sp"
+      android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     <Button
+     	android:text="Giun đũa chó" android:id="@+id/tv133" android:layout_height="wrap_content" 
+     	android:layout_width="0dp" android:textSize="26sp"
+       android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     </LinearLayout>
+     
+     <!--   P14 -->
+     
+     <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+     
+     <Button
+     	android:text="Giun lươn " android:id="@+id/tv141" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+     	 android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     <Button
+     	android:text=" Giun đầu gai" android:id="@+id/tv142" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+        android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     <Button
+     	android:text=" Giun đũa" android:id="@+id/tv143" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+       android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     </LinearLayout>
+     
+     <!--   P15 -->
+     
+     <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+     
+     <Button
+     	android:text="Sán lá phổi" android:id="@+id/tv151" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+     android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     <Button
+     	android:text=" Sán lá gan lớn" android:id="@+id/tv152" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+      android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     <Button
+     	android:text=" Sán Lá gan bé" android:id="@+id/tv153" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+      android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     </LinearLayout>
+     
+     <!--   P16 -->
+     
+     <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+     
+     <Button
+     	android:text="Ấu trùng sán dây" android:id="@+id/tv161" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+      android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     <Button
+     	android:text="Sán máng" android:id="@+id/tv162" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+      android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     </LinearLayout>
+     
+     
+     
+     <!--   P17 -->
+     
+     <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"  android:orientation="horizontal"
+       android:paddingTop="20dp" >
+     
+     <Button
+     	android:text="Soi tìm lỵ Amíp" android:id="@+id/tv171" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+      android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     <Button
+     	android:text="pH Phân" android:id="@+id/tv172" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26sp"
+     	 android:clickable="true" android:onClick="onClick" android:layout_weight="1"
+       	android:background="@android:drawable/editbox_background"/>
+     
+     </LinearLayout>
+     
+</LinearLayout>
+</ScrollView>
